@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: lexend;
+}
+
+
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+@font-face {
+    font-family: lexend;
+    src: url(fonts/LexendDeca-VariableFont_wght.ttf);
+}
+
+
+
+
+
+.container {
+
+display: grid;
+width: 750px;
+height: 500px;
+grid-template-columns: 1fr 1fr 1fr;
+
+
+
+}
+
+
+h1 {
+    color: white;
+    font-weight: 200;
+}
+
+
+.first-bar {
+
+    background-color: hsl(31, 77%, 52%);
+    padding: 40px;
+}
+
+.mid-bar {
+
+    background-color: hsl(184, 100%, 22%);
+    padding: 40px;
+    
+    
+}
+
+.third-bar {
+
+
+    background-color: hsl(179, 100%, 13%);
+    padding: 40px;
+    
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+button {
+    border-radius: 20px;
+    border: none;
+    padding: 15px;
+}
+
+
+
+
+
+p {
+    color: white;
+    font-weight: 100;
+}
+
+
+button:hover {
+    background-color: green;
+    cursor: pointer;
+}
+
+img {
+    width: 65px;
+    
+}
+
+.attribution {
+    grid-column: 1 / span 3;
+    text-align: center;
+    
+    
+}
